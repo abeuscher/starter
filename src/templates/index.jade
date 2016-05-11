@@ -1,0 +1,22 @@
+doctype html
+block vars
+include includes/file_header.jade
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    title="Michael O'Neill"
+    meta(name="author",content="")
+    meta(name="description",content="")
+    meta(name="keywords",content="")
+    link(href="css/screen.css",type="text/css",rel="stylesheet")
+  body
+    #wrapper
+      header.page-header
+        include includes/header.jade
+      .page-content
+        include includes/content.jade
+      footer.page-footer
+        include includes/footer.jade
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
+    script(src='js/bundle.js')
